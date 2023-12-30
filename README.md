@@ -3,7 +3,8 @@
 
   ## Video Demonstration
 
-  here
+  https://github.com/thefrenchman1/SQL-Employee-Management/assets/139165770/19cb1e17-d24a-41fc-9c26-2d14c1a45879
+
 
   ## Description
   
