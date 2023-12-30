@@ -408,7 +408,6 @@ async function updateRole() {
 }
 
 async function updateManager() {
-    // similar changes
     const res = await queryAsync('SELECT e.id, CONCAT(e.firstName, " ", e.lastName) AS employeeName, e.managerId, CONCAT(m.firstName, " ", m.lastName) AS managerName FROM employee e LEFT JOIN employee m ON m.id = e.managerId');  
     const answer = await inquirer.prompt([
       {
